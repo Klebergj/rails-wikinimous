@@ -1,0 +1,50 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container{
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+}
+
+.article{
+  text-align: left;
+  margin-bottom: 10px;
+  min-width: 50vw;
+}
+
+h2 a{
+  font-size: 25px;
+  color: #325F87;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  text-align: center;
+}
+
+.article-container{
+  border: 1px solid black;
+}
+
+.article-row{
+  width: 10%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+
+}
